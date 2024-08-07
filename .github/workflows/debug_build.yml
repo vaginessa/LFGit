@@ -14,7 +14,7 @@ jobs:
         java-version: '1.8'
     - name: Build
       run: |
-        ./gradlew assembleDebug
+        ./gradlew assembleRelease
     - name: Store generated APK file
       uses: actions/upload-artifact@v1
       with:
